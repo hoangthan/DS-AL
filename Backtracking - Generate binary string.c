@@ -28,3 +28,5 @@ void main()
     int a[n];
     backTrack(a,n,0);
 }
+
+//Other method, generate binary string by loop : https://bugs.vn/12411
