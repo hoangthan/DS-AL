@@ -125,7 +125,7 @@ node Delete(node root, int data)
         }
         else
         {
-            node temp = findMin(root);
+            node temp = findMin(root->r);
             root->data = temp->data;
             root->r = Delete(root->r,temp->data);
         }
